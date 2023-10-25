@@ -1,0 +1,173 @@
+
+@font-face {
+  font-family: 'Italianno', cursive;
+  font-family: 'Pinyon Script', cursive;
+}
+
+
+img {
+  width: 100%;
+}
+
+header {
+    border: 5px;
+    border-color: rgb(151, 0, 0);
+    background: hsla(43, 78%, 91%, 1);
+}
+
+main {
+  background: hsl(0, 2%, 80%);  
+}
+
+.menuP {
+  position: absolute;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 45px;
+  color: #EB0000;
+
+  top: 0;
+  left: 0;
+  padding: 25px;
+  margin-left: 10px;
+
+  z-index: 1;
+  cursor: pointer;
+}
+
+.menuP a {
+  text-decoration: none;
+  color: #EB0000;
+}
+
+.article-title {
+  /* Paley Park */
+
+  position: absolute;
+  width: 700px;
+  height: 175px;
+  left: 450px;
+  top: 80px;
+
+  font-family: 'Pinyon Script', cursive;
+  font-weight: 400;
+  font-size: 100px;
+  /* line-height: 175px; */
+  /* identical to box height */
+
+  color: #EB0000;
+}
+
+.article-location {
+  /* 3-5 EAST 53RD STREET, NEW YORK, NY 10022 */
+
+  position: absolute;
+  width: 489px;
+  height: 29px;
+  left: 780px;
+  top: 170px;
+
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 29px;
+
+  color: #EB0000;
+
+
+}
+
+.main-img {
+
+  /* Paley_Park_(54035) 1 */
+
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 240px;
+  /* width: 939px; */
+  /* height: 542px; */
+  /* left: 488px;
+  top: 342px; */
+
+
+}
+
+.article-note {
+  /* Measuring 4,200 square feet (390 m2), the park contains airy trees, lightweight furniture and simple spatial organization. */
+
+  position: absolute;
+  width: 1129px;
+  height: 29px;
+  left: 395px;
+  top: 720px;
+
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+
+  color: #EB0000;
+
+
+}
+
+.transparent {
+  /* Rectangle 10 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0.88);
+  opacity: 0;
+}
+
+.menuButtonContainer {
+  position: fixed;
+  width: 100%;
+  top: 400px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  opacity: 0;
+}
+
+.menuButton {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 0;
+  appearance: none;
+
+  font-family: 'Italianno', cursive;
+  color: #EB0000;
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+
+
+  border-style: solid;
+  border-radius: 78px;
+  max-width: fit-content;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.66);
+
+  cursor: pointer;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #EB0000;
+}

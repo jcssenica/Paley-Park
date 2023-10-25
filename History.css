@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Italianno', cursive;
+    font-family: 'Pinyon Script', cursive;
+  }
+
+.menuP {
+    position: absolute;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 45px;
+    color: #EB0000;
+    
+    top: 65px;
+    left: 1300px;
+    padding: 25px;
+    margin-left: 10px;
+  
+    z-index: 1;
+    cursor: pointer;
+}
+
+.article-HistoryBannerText {
+    /* History */
+
+    position: absolute;
+    width: 342px;
+    height: 188px;
+    left: 800px;
+    top: 30px;
+
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+
+    color: #EB0000;
+
+}
+
+.article-HistoryTextTitle {
+    /* About Paley Park */
+
+    position: absolute;
+    width: 239px;
+    height: 40px;
+    left: 140px;
+    top: 95px;
+
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #EB0000;
+}
+
+
+.article-HistoryText1  {
+    width: 470px;
+    position: absolute;
+    height: 600px;
+    top: 150px;
+    left: 140px;
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+
+    /* Slightly elevated from street level, visitors have the immediate feeling of leaving the city behind. Seventeen honey locust trees form a natural canopy over the site and the park’s walls are draped in flowing, green ivy. Seasonal flowers create an inviting garden feel, far removed from the surrounding desert of concrete and steel. Instead of conventional park benches, there are 20 tables, designed by Eero Saarinen, and 60 modern-style Henry Bertoia chairs. There is also a refreshment stand. Paley Park’s centerpiece is its magnificent 20-foot high “waterwall” which provides not only a background of captivating sight and sound, but also mutes the background noise of the city. The combined effect creates what The New York Times has called “a place of unparalleled serenity.” Paley Park’s centerpiece is its magnificent 20-foot high “waterwall” which provides not only a background of captivating sight and sound, but also mutes the background noise of the city. */
+
+/* position: absolute;
+width: 509px;
+height: 836px;
+left: 149px;
+top: 162px; */
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #C20000;
+
+
+}
+
+.article-HistoryText1::-webkit-scrollbar {
+    display: none;
+}
+
+.ImgButton1 {
+    /* Ellipse 1 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    left: 1120px;
+    top: 322px;
+
+    border: 4px solid #EB0000;
+    border-radius: 50%;
+
+}
+
+.ImgButton2 {
+    /* Ellipse 3 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 1622px;
+    top: 462px;
+
+    border: 4px solid #EB0000;
+    border-radius: 50%;
+
+}
+
+.ImgButton3 {
+    /* Ellipse 2 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 1028px;
+    top: 684px;
+
+    border: 4px solid #EB0000;
+    border-radius: 50%;
+
+}
+
+.ImgButton4 {
+    /* Ellipse 4 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 158px;
+    height: 158px;
+    left: 1442px;
+    top: 752px;
+
+    border: 4px solid #EB0000;
+
+    border-radius: 50%;
+}
+
+
+
+
+
