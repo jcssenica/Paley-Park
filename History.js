@@ -10,4 +10,12 @@ document.querySelector('.article-HistoryTextTitle').innerHTML = article.HistoryT
 
 document.querySelector('.article-HistoryText1').innerHTML = article.HistoryText1
 
-<div class="ImgButton1"></div>
+const elementOne = document.querySelector('.element-1')
+
+elementOne.addEventListener('click', function(event) {
+  const containerElement = document.querySelector('.container')
+
+  const hue = Math.floor(Math.random() * 360)
+  
+  containerElement.style.background = 'hsl(' + hue + ', 30%, 30%)'
+})
