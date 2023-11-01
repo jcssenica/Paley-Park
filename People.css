@@ -10,6 +10,9 @@ button {
     background: none;
     border: none;
 }
+img {
+    width: 100%;
+}
 
 .menuP {
     position: absolute;
@@ -32,7 +35,7 @@ button {
     position: absolute;
     width: 266px;
     height: 188px;
-    left: 620px;
+    left: 580px;
     top: 300px;
 
     font-family: 'Italianno';
@@ -122,4 +125,20 @@ button {
     /* text-align: center; */
 
     color: #C20000;
+}
+
+.peopleImg1 {
+    position: absolute;
+    scale: 55%;
+    width: 60%;
+    top: -30px;
+    left: 700px;
+}
+
+.peopleImg2 {
+    position: absolute;
+    scale: 40%;
+    width: 60%;
+    top: 180px;
+    left: -100px;
 }
