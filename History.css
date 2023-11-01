@@ -3,6 +3,14 @@
     font-family: 'Pinyon Script', cursive;
   }
 
+button {
+    background: none;
+    border: none;
+}
+img {
+    width: 100%
+}
+
 .menuP {
     position: absolute;
     font-family: 'Pinyon Script', cursive;
@@ -92,6 +100,40 @@ top: 162px; */
     display: none;
 }
 
+.historyImg1 {
+  position: absolute;
+  scale: 25%;
+  width: 60%;
+  top: -30px;
+  left: 600px;
+
+}
+
+.historyImg2 {
+    position: absolute;
+    scale: 22%;
+    width: 60%;
+    top: -170px;
+    left: 840px;
+}
+
+.historyImg3 {
+    position: absolute;
+    scale: 28%;
+    width: 60%;
+    top: 40px;
+    left: 430px;
+}
+
+.historyImg4 {
+    position: absolute;
+    scale: 40%;
+    width: 60%;
+    top: 290px;
+    left: 760px;
+}
+
+
 .ImgButton1 {
     /* Ellipse 1 */
 
@@ -100,11 +142,13 @@ top: 162px; */
     position: absolute;
     width: 119px;
     height: 119px;
-    left: 1120px;
-    top: 322px;
+    left: 960px;
+    top: 240px;
 
     border: 4px solid #EB0000;
     border-radius: 50%;
+
+    z-index: 1;
 
 }
 
@@ -116,12 +160,13 @@ top: 162px; */
     position: absolute;
     width: 78px;
     height: 78px;
-    left: 1622px;
-    top: 462px;
+    left: 1300px;
+    top: 370px;
 
     border: 4px solid #EB0000;
     border-radius: 50%;
-
+    
+    z-index: 1;
 }
 
 .ImgButton3 {
@@ -132,12 +177,13 @@ top: 162px; */
     position: absolute;
     width: 92px;
     height: 92px;
-    left: 1028px;
-    top: 684px;
+    left: 800px;
+    top: 520px;
 
     border: 4px solid #EB0000;
     border-radius: 50%;
 
+    z-index: 1;
 }
 
 .ImgButton4 {
@@ -148,12 +194,14 @@ top: 162px; */
     position: absolute;
     width: 158px;
     height: 158px;
-    left: 1442px;
-    top: 752px;
+    left: 1150px;
+    top: 560px;
 
     border: 4px solid #EB0000;
 
     border-radius: 50%;
+
+    z-index: 1;
 }
 
 

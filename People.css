@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Italianno', cursive;
+    font-family: 'Pinyon Script', cursive;
+  }
+ 
+main {
+    background: hsl(0, 2%, 80%);  
+}  
+button {
+    background: none;
+    border: none;
+}
+
+.menuP {
+    position: absolute;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 45px;
+    color: #EB0000;
+    
+    top: 60px;
+    left: 100px;
+    padding: 25px;
+    margin-left: 10px;
+  
+    z-index: 1;
+    cursor: pointer;
+}
+
+.article-title {
+    /* People */
+
+    position: absolute;
+    width: 266px;
+    height: 188px;
+    left: 620px;
+    top: 300px;
+
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+
+    color: #EB0000;
+
+}
+
+.article-subtitle1 {
+    /* Who design the park? */
+
+    position: absolute;
+    width: 297px;
+    height: 40px;
+    left: 296px;
+    top: 200px;
+
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #EB0000;
+
+
+}
+
+.article-text1 {
+    /* The park was designed by Zion & Breen Associates. */
+
+    position: absolute;
+    width: 547px;
+    height: 32px;
+    left: 296px;
+    top: 230px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    /* identical to box height */
+
+    color: #C20000;
+}
+
+.article-subtitle2 {
+    /* Who designed the furniture? */
+
+    position: absolute;
+    width: 388px;
+    height: 40px;
+    left: 1106px;
+    top: 600px;
+
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #EB0000;
+}
+
+.article-text2 {
+    /* Finnish-American designer, Eero Saarinen, designed the tables.Harry Bertoia, an Italian-American sculptor, designed the chairs. */
+
+    position: absolute;
+    width: 550px;
+    height: 69px;
+    left: 828px;
+    top: 630px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    /* text-align: center; */
+
+    color: #C20000;
+}

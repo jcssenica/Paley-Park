@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Italianno', cursive;
+    font-family: 'Pinyon Script', cursive;
+  }
+ 
+main {
+    background: hsl(0, 2%, 80%);  
+}  
+button {
+    background: none;
+    border: none;
+}
+
+.menuP {
+    position: absolute;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 45px;
+    color: #EB0000;
+    
+    top: 65px;
+    left: 1300px;
+    padding: 25px;
+    margin-left: 10px;
+  
+    z-index: 1;
+    cursor: pointer;
+}
+
+.article-title {
+    /* Bloom Guide */
+
+    position: absolute;
+    width: 548px;
+    height: 188px;
+    left: 740px;
+    top: 370px;
+
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 188px;
+    /* identical to box height */
+
+    color: #EB0000;
+}
+
+.article-subtitle1 {
+    /* Perennial Plantings */
+
+    position: absolute;
+    width: 268px;
+    height: 40px;
+    left: 89px;
+    top: 180px;
+
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #EB0000;
+
+}
+
+.article-text1 {
+/* English Ivy grows along the west wall, and Thorndale Ivy along the east wall. Both walls stay green all year long. There are 17 Honey Locust trees planted in the park, including 5 on the sidewalk. Honey Locusts were chosen for their extreme hardiness and the canopy they create, which provides welcome shade to park visitors. */
+
+    position: absolute;
+    width: 530px;
+    height: 199px;
+    left: 89px;
+    top: 230px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #C20000;
+
+
+}
+
+.article-subtitle2 {
+/* Seasonal Plantings */
+
+    position: absolute;
+    width: 258px;
+    height: 40px;
+    left: 1200px;
+    top: 680px;
+
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    /* identical to box height */
+
+    color: #EB0000;
+
+}
+
+.article-text2 {
+    /* The flowers and evergreens in the 20 planters are changed throughout the year, approximately on the following schedule. */
+
+    position: absolute;
+    width: 480px;
+    height: 104px;
+    left: 898px;
+    top: 729px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #C20000;
+}
